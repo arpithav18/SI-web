@@ -1,0 +1,17 @@
+.navbar-items{
+    float: right;
+    justify-content: flex-end;
+}
+.nav-button{
+    background-color: white;
+    margin-right: 8px;
+}
+.active{
+    color:green;
+}
+.nav-button:hover{
+    color: green;
+}
+.navbar{
+    margin: -16px -16px -16px -16px !important;
+}
