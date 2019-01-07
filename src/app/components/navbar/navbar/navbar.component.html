@@ -1,25 +1,83 @@
-<mat-toolbar class="navbar">SimpleTerms
-    <div class="navbar-items">
+<mat-toolbar class="navbar"><h2 class="mat-title">SimpleTerms</h2>
+    <div class="navbar-items mat-body-1">
+        <a href="#home">
         <span>
-            <button mat-flat-button class="nav-button active">Home</button>
+            <button mat-flat-button class="nav-button active ">Home</button>
         </span>
+    </a>
+    <a href="#about">
         <span>
-            <button mat-flat-button class="nav-button">About</button>
+            <button mat-flat-button class="nav-button" >About</button>
         </span>
+    </a>
+    <a href="#technology">
         <span>
-            <button mat-flat-button class="nav-button">Technologies</button>
+            <button mat-flat-button class="nav-button">Technology</button>
         </span>
+    </a>
+    <a href="#screenshots">
         <span>
             <button mat-flat-button class="nav-button">Screeshots</button>
         </span>
+    </a>
+    <a href="#team">
         <span>
             <button mat-flat-button class="nav-button">Team</button>
         </span>
+    </a>
+    <a href="#blog">
         <span>
             <button mat-flat-button class="nav-button">Blog</button>
         </span>
+    </a>
+    <a href="#contact">
         <span>
             <button mat-flat-button class="nav-button">Contact</button>
         </span>
+    </a>
     </div>
 </mat-toolbar>
+<div class="tab-content-home" id="home">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_EU1N1HQfPJ1KUev4jsb5Hc3puq8nHNTGNiqrFjWGBrenE-5qLA">
+</div>
+<div class="tab-content-about" id="about">
+    <h2>About us</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqxiqE72IveLlPNk5MbzsjajMsu5uehDi5DNejyG4BdCkIEgWKA">
+</div>
+<div class="tab-content-technology" id="technology">
+        <h2>technology</h2>
+        <mat-grid-list cols="4" rowHeight="2:1">
+                <mat-grid-tile class="grid"> <mat-card class="card">
+                    <img src="https://pluralsight2.imgix.net/paths/images/angular-14a0f6532f.png">   <mat-card-title>Angular</mat-card-title>
+                    <mat-card-content>
+                            <p>
+                              The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+                              A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+                              bred for hunting.
+                            </p>
+                          </mat-card-content>
+                </mat-card></mat-grid-tile>
+                <mat-grid-tile><mat-card>Simple card</mat-card></mat-grid-tile>
+                <mat-grid-tile><mat-card>Simple card</mat-card></mat-grid-tile>
+                <mat-grid-tile><mat-card>Simple card</mat-card></mat-grid-tile>
+              </mat-grid-list>
+       
+        <!-- <div class="card">
+            <img class="technology-image" src="https://pluralsight2.imgix.net/paths/images/angular-14a0f6532f.png">
+            <p>Angular</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        </div>
+    -->
+</div>
+    <div class="tab-content-screenshots" id="screenshots">
+            <h2>About us</h2>
+        </div>
+    <div class="tab-content-team" id="team">
+            <h2>About us</h2>
+        </div>
+        <div class="tab-content-blog" id="blog">
+                <h2>About us</h2>
+            </div>
+            <div class="tab-content-contact" id="contact">
+                    <h2>About us</h2>
+                </div>
