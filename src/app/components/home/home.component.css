@@ -1,15 +1,11 @@
-#nav-menu-container {
-    float: right;
-    margin: 0 0 0 0;
-  }
-  
-  @media (max-width: 1024px) {
-    #nav-menu-container {
-      display: none;
-    }
-  }
-  
-  .card{
-    height: 100px;
-    width: 200px;
-  }
+.navbar-nav{
+  float: right;
+}
+#home {
+  height: 600px;
+  background-color: pink;
+}
+#about {
+  height: 600px;
+  background-color: red;
+}
